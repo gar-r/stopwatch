@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"time"
 )
 
@@ -20,6 +21,7 @@ func main() {
 		case <-ticker:
 			emit(start, options)
 		case <-timeout:
+			fmt.Println()
 			return
 		}
 	}
