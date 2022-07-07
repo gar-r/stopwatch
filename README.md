@@ -19,12 +19,11 @@ Here is a quick demo of it in action:
 
 If there are no binaries for your platform, or you want to compile from source you can follow these steps:
 
-1) make sure that you have __go version 1.11__ or newer
+1) make sure that you have __go version 1.13__ or newer
 2) fetch and build the source:
 
 ```
-go get github.com/dargzero/stopwatch
-go build github.com/dargzero/stopwatch
+go install github.com/garricasaurus/stopwatch@latest
 ```
 
 3) the binary will be placed in your `$GOPATH/bin/`
@@ -44,8 +43,6 @@ stopwatch -help
         fancy output (default true)
   -frequency duration
         console update frequency (default 1s)
-  -help
-        print help
   -timer
         start a timer, which counts down
 ```
