@@ -1,17 +1,12 @@
 package main
 
 import (
-	"flag"
 	"fmt"
 	"time"
 )
 
 func main() {
 	options := getOptions()
-	if options.help {
-		flag.PrintDefaults()
-		return
-	}
 	start := time.Now()
 	ticker := time.Tick(options.frequency)
 	timeout := time.After(options.duration)
