@@ -23,7 +23,7 @@ If there are no binaries for your platform, or you want to compile from source y
 2) fetch and build the source:
 
 ```
-go install github.com/garricasaurus/stopwatch@latest
+go install git.okki.hu/garric/stopwatch
 ```
 
 3) the binary will be placed in your `$GOPATH/bin/`

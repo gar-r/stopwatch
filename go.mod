@@ -1,3 +1,3 @@
-module github.com/garricasaurus/stopwatch
+module git.okki.hu/garric/stopwatch
 
 go 1.13
