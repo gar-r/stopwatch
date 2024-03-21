@@ -19,11 +19,11 @@ Here is a quick demo of it in action:
 
 If there are no binaries for your platform, or you want to compile from source you can follow these steps:
 
-1) make sure that you have __go version 1.13__ or newer
+1) make sure that you have __go version 1.21__ or newer
 2) fetch and build the source:
 
 ```
-go install git.okki.hu/garric/stopwatch
+go install github.com/gar-r/stopwatch
 ```
 
 3) the binary will be placed in your `$GOPATH/bin/`
